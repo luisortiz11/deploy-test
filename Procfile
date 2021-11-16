@@ -1,1 +1,1 @@
-"web: gunicorn parcial2:app" 
+"web: gunicorn parcial2:parcial2" 
