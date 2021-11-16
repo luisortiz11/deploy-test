@@ -6,8 +6,9 @@ import csv,random
 from flask import Flask, render_template, jsonify, request, redirect
 import pymongo
 
+
 # Establece conexion con servidor MongoDB
-con = pymongo.MongoClient("mongodb+srv://luisortiz:cl4v3s_7R@cluster0.6ikno.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+con = pymongo.MongoClient("mongodb://luisortiz:cl4v3s_7R@cluster0.6ikno.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = con["parcial2"] # Base de datos
 col = db["bancovac"] # Coleccion
 
